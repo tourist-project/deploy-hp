@@ -1,0 +1,19 @@
+{
+  "name": "deploy-hp",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "netlify build",
+    "deploy": "netlify deploy"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "netlify-cli": "^12.10.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@netlify/functions": "^1.4.0"
+  }
+}
